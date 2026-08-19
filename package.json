@@ -1,0 +1,29 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch",
+    "start": "tsx",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^26.1.2",
+    "@types/nodemailer": "^8.0.1",
+    "tsx": "^4.23.5",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "ioredis": "^5.11.1",
+    "js-yaml": "^5.2.3",
+    "jsonwebtoken": "^9.0.3",
+    "minimist": "^1.2.8",
+    "nodemailer": "^9.0.5"
+  }
+}

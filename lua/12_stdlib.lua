@@ -1,7 +1,7 @@
 --[[
     12 - 常用标准库速览
     string / table / math / os / io 五大库的高频 API
-    运行方式：lua 12_stdlib.lua
+    运行方式：lua lua/12_stdlib.lua
 ]]
 
 print("===== 1. math 库 =====")

@@ -2,7 +2,7 @@
     09 - 协程（coroutine）
     协程是协作式多任务：主动 yield 让出，resume 恢复。
     常用于生成器、生产者-消费者、异步流程。
-    运行方式：lua 09_coroutines.lua
+    运行方式：lua lua/09_coroutines.lua
 ]]
 
 -- 1. 协程基础：create / resume / yield

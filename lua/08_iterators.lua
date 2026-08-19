@@ -1,7 +1,7 @@
 --[[
     08 - 迭代器与泛型 for
     泛型 for 的本质：反复调用迭代函数，直到返回 nil。
-    运行方式：lua 08_iterators.lua
+    运行方式：lua lua/08_iterators.lua
 ]]
 
 -- 1. 泛型 for 的原理

@@ -1,7 +1,7 @@
 --[[
     11 - 错误处理
     Lua 用 error 抛出，pcall / xpcall 捕获，没有 try-catch 语法。
-    运行方式：lua 11_error_handling.lua
+    运行方式：lua lua/11_error_handling.lua
 ]]
 
 -- 1. error 抛出错误

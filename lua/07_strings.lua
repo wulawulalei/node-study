@@ -1,7 +1,7 @@
 --[[
     07 - 字符串与模式匹配
     Lua 的 string 库 + 自有模式语法（注意：不是完整正则！）
-    运行方式：lua 07_strings.lua
+    运行方式：lua lua/07_strings.lua
 ]]
 
 -- 1. string 库常用函数

@@ -1,7 +1,7 @@
 --[[
     05 - 元表与元方法（metatable & metamethod）
     元表是 Lua 实现运算符重载、面向对象、默认值机制的基础。
-    运行方式：lua 05_metatables.lua
+    运行方式：lua lua/05_metatables.lua
 ]]
 
 -- 1. setmetatable / getmetatable 基础

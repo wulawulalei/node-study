@@ -1,7 +1,7 @@
 --[[
     02 - 流程控制
     Lua 的条件与循环语法：if / while / repeat / 数值 for / 泛型 for
-    运行方式：lua 02_control_flow.lua
+    运行方式：lua lua/02_control_flow.lua
 ]]
 
 -- 1. if 语句：then 必须有，end 必须有，没有大括号

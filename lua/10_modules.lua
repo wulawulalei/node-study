@@ -1,7 +1,7 @@
 --[[
     10 - 模块与包（module & require）
     Lua 模块就是一个返回表的文件，require 负责加载和缓存。
-    运行方式：lua 10_modules.lua（依赖同目录 utils.lua）
+    运行方式：lua lua/10_modules.lua（依赖同目录 utils.lua）
 ]]
 
 -- 1. require 加载模块（自动去 package.path 指定的路径找文件）

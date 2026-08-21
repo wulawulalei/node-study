@@ -1,0 +1,23 @@
+{
+  "runtime.version": "Lua 5.1",
+  "runtime.special": {
+    "redis.call": "require",
+    "redis.pcall": "require"
+  },
+  "diagnostics.globals": [
+    "KEYS",
+    "ARGV",
+    "redis",
+    "cjson",
+    "cmsgpack",
+    "struct",
+    "bit"
+  ],
+  "workspace.library": [
+    "types/"
+  ],
+  "workspace.checkThirdParty": false,
+  "hint.enable": true,
+  "hint.paramType": true,
+  "hint.setType": true
+}

@@ -6,6 +6,7 @@
     "dev": "tsx watch",
     "start": "tsx",
     "build": "tsc",
+    "mysql:all": "for f in mysql/0*.ts; do echo \"\\n▶ $f\"; tsx \"$f\" || break; done",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
@@ -22,11 +23,13 @@
     "typescript": "^7.0.2"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1",
     "ioredis": "^5.11.1",
     "js-yaml": "^5.2.3",
     "jsonwebtoken": "^9.0.3",
     "minimist": "^1.2.8",
+    "mysql2": "^3.23.4",
     "nodemailer": "^9.0.5"
   }
 }
